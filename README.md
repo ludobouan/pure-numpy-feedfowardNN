@@ -25,3 +25,6 @@ The `nn.train()` method has an optional parameter called `stop_accuracy`. At the
 
 ## Example: XOR function
 The Jupyter Notebook shows how the network can be used to approximate the XOR function using a 3-layer neural network. We attempt to find the optimal network dimensions and the optimal learning rate.
+
+![Error](https://github.com/ludobouan/pure-numpy-feedfowardNN/blob/master/example/error_rate.png)
+![Optimization](https://github.com/ludobouan/pure-numpy-feedfowardNN/blob/master/example/optimization.png)
