@@ -30,8 +30,8 @@ The Jupyter Notebook shows how the network can be used to approximate the XOR fu
 ![Optimization](https://github.com/ludobouan/pure-numpy-feedfowardNN/blob/master/example/optimization.png)
 
 
-**Conclusion :** It is important to play around with different random seeds (in the initialization of the NeuralNetwork class) when searching for the optimal pair of hyperparameters. For the seed above, it seems we can use a rather large alpha and only 5 nodes on the hidden layer in order to learn the fastest. However, using different seeds I found that usually using 7 or 9 nodes and a learning rate between 1 and 5 to be the best all-around solution.
-To be safe and garantee convergence, a small learning rate should be chosen and the number of epochs adjusted accordingly.
+**Conclusion :** It is important to play around with different random seeds (in the initialization of the NeuralNetwork class) when searching for the optimal pair of hyperparameters. For the seed above, it seems we can use a rather large alpha and only 5 nodes on the hidden layer in order to learn the fastest. However, using different seeds I found that usually using 7 or 9 nodes and a learning rate between 1 and 5 to be the best all-around solution.  
+**To be safe and garantee convergence, a small learning rate should be chosen and the number of epochs adjusted accordingly.**
 
 ## Dependencies
 * Numpy
