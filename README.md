@@ -12,7 +12,7 @@ Simple feedforward neural network class written in pure python+numpy
 1. Create an instance  
   `nn = NeuralNetwork()`
 2. Add layers  
-  The first input layer is created automatically
+  The first input layer is created automatically  
   `nn.add_layer(shape=(input_dim1, output_dim1))`  
   `nn.add_layer(shape=(input_dim2, output_dim2))`
 3. Train  
