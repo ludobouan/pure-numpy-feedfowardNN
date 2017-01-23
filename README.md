@@ -16,6 +16,6 @@ Simple feedforward neural network class written in pure python+numpy
   `nn.add_layer(shape=(input_dim1, output_dim1))`  
   `nn.add_layer(shape=(input_dim2, output_dim2))`
 3. Train  
-  `nn.train(features, targets, num_epochs)`
+  `nn.train(features, targets, num_epochs, learning_rate)`
 4. Predict  
   `nn.predict(features)`
