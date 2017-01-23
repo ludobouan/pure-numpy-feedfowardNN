@@ -8,11 +8,11 @@ Simple feedforward neural network class written in pure python+numpy
 * Uses Sum Squared Error cost function
 
 ## How to use
-1. Create an instance
+1. Create an instance  
   `nn = NeuralNetwork()`
-2. Add layers
+2. Add layers  
   `nn.add_layer(shape=(input_dim, output_dim))`
-3. Train
+3. Train  
   `nn.train(features, targets, num_epochs)`
-4. Predict
+4. Predict  
   `nn.predict(features)`
