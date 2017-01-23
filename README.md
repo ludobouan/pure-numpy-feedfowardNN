@@ -20,6 +20,8 @@ Simple feedforward neural network class "handmade" in pure python+numpy
   `nn.train(features, targets, num_epochs, learning_rate)`
 4. Predict  
   `nn.predict(features)`
+  
+The `nn.train()` method has a parameter called `stop_accuracy`. At the end of each epoch the mean loss is calculated and if it is under the specified threshold than the training stops. This avoids training longer than necessary. By looking at the number of epochs needed to reach the threshold, it gives us a good metric as to the performance of our hyperparameters.
 
 ## Example: XOR function
 The Jupyter Notebook shows how the network can be used to approximate the XOR function using a 3-layer neural network. We attempt to find the optimal network dimensions and the optimal learning rate.
