@@ -1,5 +1,5 @@
 # pure-numpy-feedfowardNN
-Simple feedforward neural network class "handmade" in pure python+numpy
+Simple feedforward neural network class "handmade" in pure python+numpy  
 Winner of Siraj Ravel's [coding challange](https://youtu.be/p69khggr1Jo?t=8m48s)
 
 ## Characteristics
